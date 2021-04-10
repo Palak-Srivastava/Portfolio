@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="IE-edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Personal Website</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+	<!--using FontAwesome-->
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+	
+</head>
+<body>
+	<section>
+	<!--navigation------------------------->
+	<nav>
+	<!--logo-->
+	<a class="logo" href="#">My Personal Portfolio</a>
+	<!--menu-->
+	<ul>
+		<li><a class="active" href="#">Home</a></li>
+		<li><a href="#2">About</a></li>
+		<li><a href="contact/index.html">Contact us</a></li>
+		<li><a href="#3">Skills</a></li>
+	</ul>
+	<!--bars--------------->
+	<div class="toggle"></div>
+	
+	</nav>
+	<!--text----------------------->
+		<div class="text-container">
+			<p>Hello,</p>
+		    <p>I&#8217;M PALAK SRIVASTAVA</p>
+			<p>Graphic Designer <br />&amp; Web Devolper</p>
+			<button class="hire-btn"><a href="contact/index.html">Hire me</a></button>
+			<button class="down-cv"><a href="https://drive.google.com/file/d/1opF0jOGQkVm65Acos2Jputb7xoiGuk56/view?usp=sharing">Download CV</a></button>
+		</div>
+	<!--model---------------------->
+	<img alt="" class="model" src="images/1.jpg" />
+	</section>
+	<div class="about-container" id="2">
+	<!--img-->
+		
+	<!--about-me-text-->
+		<div class="about-text">
+		<p>About Me</p>
+		<p>Devolper &amp; Designer</p>
+		<p>Hello, My name is <strong>Palak Srivastava</strong>. I am a Devolper and also a Graphic Designer. Creative Graphic Artist and Designer with talent for developing unique custom artwork. Innovative approach to idea and concept development. 
+			I'm a college student currently learning skills for a valuable position in an organization where I can showcase my skills. I'm an experienced web developer and graphic designer whose passion is to produce works that interest the user. I'm a self-starter and have a thirst for learning.</p>
+		<button><a href="contact/index.html">Hire Me</a></button>
+		<button><a href="https://drive.google.com/file/d/1opF0jOGQkVm65Acos2Jputb7xoiGuk56/view?usp=sharing">Download CV</a></button>
+		</div>
+	</div>
+ <!--services-container---------------------------->
+	<div class="services " id="3">
+		<!--text-->
+		<div class="services-text ">
+	<p>Skills</p>
+	<p>Web Developer , Graphic Designing , Google Cloud Essentials</p>
+			</div>
+		<div class="box-container">
+		<!--1------------->
+			<div class="box-1">
+			<span>1</span>
+			<p class="heading">Web Design</p>
+			<p class="details">HTML & CSS, JavaScript, BootStrap, Wordpress. <br>I have created a website "STARCART" for IIT Bombay comptition.</p>
+			
+			</div>
+	   <!--2------------->
+			<div class="box-2">
+			<span>2</span>
+			<p class="heading">Graphic Desining</p>
+			<p class="details">Abode Photoshop, Adobe XD, Adobe Illustrator, Canva, Figma, Adobe XD <br> Working as a Graphic Designer at CARJOZ LTD.</p>
+			
+			</div>
+		<!--3------------->
+			<div class="box-3">
+			<span>3</span>
+			<p class="heading">Cloud Service</p>
+			<p class="details">Google Cloud Computing Service <br> Learning Cloud Computing from Google Learning Program.</p>
+		
+			</div>
+		</div>
+	</div>
+	<!--if you have any project in your mind contact me-->
+	<div class="contact-me">
+		<p>If You Have Any Project In Your Mind ?</p>
+		<button><a href="contact/index.html">Contact me</a></button>
+	</div>
+	<!--footer--------------->
+ <footer>
+	 <!--heading-->
+  <p>Portfolio - PALAK SRIVASTAVA</p>
+	 <!--paragraph-->
+	 <p>Devoted special emphasis to punctuality and worked to maintain outstanding attendance record, 
+		consistently arriving to work ready to start immediately.
+		</p>
+	 <!--social-->
+	<div class="social-icons">
+	<a href="https://github.com/Palak-Srivastava"><i class="fab fa-github"></i></a>
+	<a href="https://www.linkedin.com/in/palak-srivastava-0302471aa/"><i class="fab fa-linkedin"></i></a>
+	<a href="https://www.behance.net/palaksrivastava1"><i class="fab fa-behance"></i></a>
+	<a href="https://www.youtube.com/channel/UCiSmXK10OgjnVv94X5d3QQQ"><i class="fab fa-youtube"></i></a>
+	</div>
+	 <!--copyright-->
+	 <p class="copyright">Copyright of My Personal Portfolio</p>
+</footer>
+	<!--social-attach-bar-->
+	<div class="social">
+	<a href="https://github.com/Palak-Srivastava"><i class="fab fa-github"></i></a>
+	<a href="https://www.linkedin.com/in/palak-srivastava-0302471aa/"><i class="fab fa-linkedin"></i></a>
+	<a href="https://www.behance.net/palaksrivastava1"><i class="fab fa-behance"></i></a>
+	<a href="https://www.youtube.com/channel/UCiSmXK10OgjnVv94X5d3QQQ"><i class="fab fa-youtube"></i></a>
+	</div>
+	<!--JQUery-------------------->
+<script src="js/jquery.js" type="text/javascript">
+	$(document).ready(function(){
+		$('.toggle').click(function(){
+			$('.toggle').toggleClass('active')
+			$('nav').toggleClass('active')
+		})
+	});
+
+</script>
+</body>
+</html>
